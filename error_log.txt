@@ -1,0 +1,397 @@
+Message : Er is een netwerkfout of een exemplaarspecifieke fout opgetreden tijdens het maken van verbinding met SQL Server. De server is niet gevonden of is niet toegankelijk. Controleer of de exemplaarnaam correct is en of in de instellingen van SQL Server externe verbindingen zijn toegestaan. (provider: SQL Network Interfaces, error: 26 - Fout bij zoeken van opgegeven server/exemplaar)
+   bij System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   bij System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   bij System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.Open()
+   bij GMaps.Database.ParkingspaceController.GetParkingspaces() in C:\Users\Andre\Source\Repos\GMap\GMaps\GMaps\Database\ParkingspaceController.cs:regel 20
+Date : 21-3-2017 14:11:33
+
+Message : Er is een netwerkfout of een exemplaarspecifieke fout opgetreden tijdens het maken van verbinding met SQL Server. De server is niet gevonden of is niet toegankelijk. Controleer of de exemplaarnaam correct is en of in de instellingen van SQL Server externe verbindingen zijn toegestaan. (provider: SQL Network Interfaces, error: 26 - Fout bij zoeken van opgegeven server/exemplaar)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.Open()
+   bij GMaps.Database.ReportController.GetReports() in C:\Users\Andre\Source\Repos\GMap\GMaps\GMaps\Database\ReportController.cs:regel 19
+Date : 21-3-2017 14:11:33
+
+Message : Er is een netwerkfout of een exemplaarspecifieke fout opgetreden tijdens het maken van verbinding met SQL Server. De server is niet gevonden of is niet toegankelijk. Controleer of de exemplaarnaam correct is en of in de instellingen van SQL Server externe verbindingen zijn toegestaan. (provider: SQL Network Interfaces, error: 26 - Fout bij zoeken van opgegeven server/exemplaar)
+   bij System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   bij System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   bij System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.Open()
+   bij GMaps.Database.ParkingspaceController.GetParkingspaces() in C:\Users\Andre\Source\Repos\GMap\GMaps\GMaps\Database\ParkingspaceController.cs:regel 20
+Date : 23-3-2017 11:09:20
+
+Message : Er is een netwerkfout of een exemplaarspecifieke fout opgetreden tijdens het maken van verbinding met SQL Server. De server is niet gevonden of is niet toegankelijk. Controleer of de exemplaarnaam correct is en of in de instellingen van SQL Server externe verbindingen zijn toegestaan. (provider: SQL Network Interfaces, error: 26 - Fout bij zoeken van opgegeven server/exemplaar)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.Open()
+   bij GMaps.Database.ReportController.GetReports() in C:\Users\Andre\Source\Repos\GMap\GMaps\GMaps\Database\ReportController.cs:regel 19
+Date : 23-3-2017 11:09:20
+
+Message : Er is een netwerkfout of een exemplaarspecifieke fout opgetreden tijdens het maken van verbinding met SQL Server. De server is niet gevonden of is niet toegankelijk. Controleer of de exemplaarnaam correct is en of in de instellingen van SQL Server externe verbindingen zijn toegestaan. (provider: SQL Network Interfaces, error: 26 - Fout bij zoeken van opgegeven server/exemplaar)
+   bij System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   bij System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   bij System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.Open()
+   bij GMaps.Database.ParkingspaceController.GetParkingspaces() in C:\Users\Andre\Source\Repos\GMap\GMaps\GMaps\Database\ParkingspaceController.cs:regel 20
+Date : 23-3-2017 11:48:23
+
+Message : Er is een netwerkfout of een exemplaarspecifieke fout opgetreden tijdens het maken van verbinding met SQL Server. De server is niet gevonden of is niet toegankelijk. Controleer of de exemplaarnaam correct is en of in de instellingen van SQL Server externe verbindingen zijn toegestaan. (provider: SQL Network Interfaces, error: 26 - Fout bij zoeken van opgegeven server/exemplaar)
+   bij System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   bij System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   bij System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.Open()
+   bij GMaps.Database.ParkingspaceController.GetParkingspaces() in C:\Users\Andre\Source\Repos\GMap\GMaps\GMaps\Database\ParkingspaceController.cs:regel 20
+Date : 23-3-2017 12:04:23
+
+Message : id
+   bij System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   bij System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   bij System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   bij GMaps.Database.WorkingRouteController.GetWorkingRoute() in C:\Users\Danilo\Source\Repos\GMap\GMaps\GMaps\Database\WorkingRouteController.cs:regel 27
+Date : 23-3-2017 12:33:46
+
+Message : id
+   bij System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   bij System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   bij System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   bij GMaps.Database.WorkingRouteController.GetWorkingRoute() in C:\Users\Danilo\Source\Repos\GMap\GMaps\GMaps\Database\WorkingRouteController.cs:regel 27
+Date : 23-3-2017 12:34:25
+
+Message : id
+   bij System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   bij System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   bij System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   bij GMaps.Database.WorkingRouteController.GetWorkingRoute() in C:\Users\Danilo\Source\Repos\GMap\GMaps\GMaps\Database\WorkingRouteController.cs:regel 27
+Date : 23-3-2017 12:35:19
+
+Message : id
+   bij System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   bij System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   bij System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   bij GMaps.Database.WorkingRouteController.GetWorkingRoute() in C:\Users\Danilo\Source\Repos\GMap\GMaps\GMaps\Database\WorkingRouteController.cs:regel 27
+Date : 23-3-2017 12:37:41
+
+Message : id
+   bij System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   bij System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   bij System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   bij GMaps.Database.WorkingRouteController.GetWorkingRoute() in C:\Users\Danilo\Source\Repos\GMap\GMaps\GMaps\Database\WorkingRouteController.cs:regel 27
+Date : 23-3-2017 12:39:19
+
+Message : id
+   bij System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   bij System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   bij System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   bij GMaps.Database.WorkingRouteController.GetWorkingRoute() in C:\Users\Danilo\Source\Repos\GMap\GMaps\GMaps\Database\WorkingRouteController.cs:regel 27
+Date : 23-3-2017 12:40:23
+
+Message : id
+   bij System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   bij System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   bij System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   bij GMaps.Database.WorkingRouteController.GetWorkingRoute() in C:\Users\Danilo\Source\Repos\GMap\GMaps\GMaps\Database\WorkingRouteController.cs:regel 27
+Date : 26-3-2017 19:18:05
+
+Message : id
+   bij System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   bij System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   bij System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   bij GMaps.Database.WorkingRouteController.GetWorkingRoute() in C:\Users\Danilo\Source\Repos\GMap\GMaps\GMaps\Database\WorkingRouteController.cs:regel 27
+Date : 26-3-2017 19:19:20
+
+Message : id
+   bij System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   bij System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   bij System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   bij GMaps.Database.WorkingRouteController.GetWorkingRoute() in C:\Users\Danilo\Source\Repos\GMap\GMaps\GMaps\Database\WorkingRouteController.cs:regel 27
+Date : 26-3-2017 19:23:02
+
+Message : id
+   bij System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   bij System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   bij System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   bij GMaps.Database.WorkingRouteController.GetWorkingRoute() in C:\Users\Danilo\Source\Repos\GMap\GMaps\GMaps\Database\WorkingRouteController.cs:regel 27
+Date : 27-3-2017 13:34:06
+
+Message : id
+   bij System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   bij System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   bij System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   bij GMaps.Database.WorkingRouteController.GetWorkingRoute() in C:\Users\Danilo\Source\Repos\GMap\GMaps\GMaps\Database\WorkingRouteController.cs:regel 27
+Date : 27-3-2017 13:34:54
+
+Message : sign_type
+   bij System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   bij System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   bij System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   bij GMaps.Database.ParkingspaceController.GetParkingspaces() in C:\Users\Danilo\Source\Repos\GMap\GMaps\GMaps\Database\ParkingspaceController.cs:regel 25
+Date : 5-4-2017 13:21:42
+
+Message : sign_type
+   bij System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   bij System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   bij System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   bij GMaps.Database.ParkingspaceController.GetParkingspaces() in C:\Users\Danilo\Source\Repos\GMap\GMaps\GMaps\Database\ParkingspaceController.cs:regel 25
+Date : 5-4-2017 13:26:15
+
+Message : sign_type
+   bij System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   bij System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   bij System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   bij GMaps.Database.ParkingspaceController.GetParkingspaces() in C:\Users\Danilo\Source\Repos\GMap\GMaps\GMaps\Database\ParkingspaceController.cs:regel 25
+Date : 5-4-2017 13:32:17
+
+Message : sign_type
+   bij System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   bij System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   bij System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   bij GMaps.Database.ParkingspaceController.GetParkingspaces() in C:\Users\Danilo\Source\Repos\GMap\GMaps\GMaps\Database\ParkingspaceController.cs:regel 25
+Date : 5-4-2017 13:33:45
+
+Message : Er is een netwerkfout of een exemplaarspecifieke fout opgetreden tijdens het maken van verbinding met SQL Server. De server is niet gevonden of is niet toegankelijk. Controleer of de exemplaarnaam correct is en of in de instellingen van SQL Server externe verbindingen zijn toegestaan. (provider: SQL Network Interfaces, error: 26 - Fout bij zoeken van opgegeven server/exemplaar)
+   bij System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   bij System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   bij System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.Open()
+   bij GMaps.Database.ReportController.InsertReport(Report report) in C:\Users\Murat-Laptop\Documents\Visual Studio 2017\Projects\projecten\GMap-master\GMaps\GMaps\Database\ReportController.cs:regel 22
+Date : 29-6-2017 21:32:18
+
+Message : Er is een netwerkfout of een exemplaarspecifieke fout opgetreden tijdens het maken van verbinding met SQL Server. De server is niet gevonden of is niet toegankelijk. Controleer of de exemplaarnaam correct is en of in de instellingen van SQL Server externe verbindingen zijn toegestaan. (provider: SQL Network Interfaces, error: 26 - Fout bij zoeken van opgegeven server/exemplaar)
+   bij System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   bij System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   bij System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.Open()
+   bij GMaps.Database.ReportController.GetReportList() in C:\Users\Murat-Laptop\Documents\Visual Studio 2017\Projects\projecten\GMap-master\GMaps\GMaps\Database\ReportController.cs:regel 52
+Date : 29-6-2017 21:32:39
+
+Message : Er is een netwerkfout of een exemplaarspecifieke fout opgetreden tijdens het maken van verbinding met SQL Server. De server is niet gevonden of is niet toegankelijk. Controleer of de exemplaarnaam correct is en of in de instellingen van SQL Server externe verbindingen zijn toegestaan. (provider: SQL Network Interfaces, error: 26 - Fout bij zoeken van opgegeven server/exemplaar)
+   bij System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   bij System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   bij System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.Open()
+   bij GMaps.Database.ReportController.InsertReport(Report report) in C:\Users\Murat-Laptop\Documents\Visual Studio 2017\Projects\projecten\GMap-master\GMaps\GMaps\Database\ReportController.cs:regel 22
+Date : 29-6-2017 22:09:00
+
+Message : Er is een netwerkfout of een exemplaarspecifieke fout opgetreden tijdens het maken van verbinding met SQL Server. De server is niet gevonden of is niet toegankelijk. Controleer of de exemplaarnaam correct is en of in de instellingen van SQL Server externe verbindingen zijn toegestaan. (provider: SQL Network Interfaces, error: 26 - Fout bij zoeken van opgegeven server/exemplaar)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.Open()
+   bij GMaps.Database.ReportController.GetReportList() in C:\Users\Murat-Laptop\Documents\Visual Studio 2017\Projects\projecten\GMap-master\GMaps\GMaps\Database\ReportController.cs:regel 52
+Date : 29-6-2017 22:09:03
+
+Message : Er is een netwerkfout of een exemplaarspecifieke fout opgetreden tijdens het maken van verbinding met SQL Server. De server is niet gevonden of is niet toegankelijk. Controleer of de exemplaarnaam correct is en of in de instellingen van SQL Server externe verbindingen zijn toegestaan. (provider: SQL Network Interfaces, error: 26 - Fout bij zoeken van opgegeven server/exemplaar)
+   bij System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   bij System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   bij System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.Open()
+   bij GMaps.Database.ReportController.InsertReport(Report report) in C:\Users\Murat-Laptop\Documents\Visual Studio 2017\Projects\projecten\GMap-master\GMaps\GMaps\Database\ReportController.cs:regel 22
+Date : 29-6-2017 22:21:32
+
+Message : Er is een netwerkfout of een exemplaarspecifieke fout opgetreden tijdens het maken van verbinding met SQL Server. De server is niet gevonden of is niet toegankelijk. Controleer of de exemplaarnaam correct is en of in de instellingen van SQL Server externe verbindingen zijn toegestaan. (provider: SQL Network Interfaces, error: 26 - Fout bij zoeken van opgegeven server/exemplaar)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.Open()
+   bij GMaps.Database.ReportController.GetReportList() in C:\Users\Murat-Laptop\Documents\Visual Studio 2017\Projects\projecten\GMap-master\GMaps\GMaps\Database\ReportController.cs:regel 52
+Date : 29-6-2017 22:21:34
+
+Message : Er is een netwerkfout of een exemplaarspecifieke fout opgetreden tijdens het maken van verbinding met SQL Server. De server is niet gevonden of is niet toegankelijk. Controleer of de exemplaarnaam correct is en of in de instellingen van SQL Server externe verbindingen zijn toegestaan. (provider: SQL Network Interfaces, error: 26 - Fout bij zoeken van opgegeven server/exemplaar)
+   bij System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   bij System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   bij System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.Open()
+   bij GMaps.Database.ReportController.InsertReport(Report report) in C:\Users\Murat-Laptop\Documents\Visual Studio 2017\Projects\projecten\GMap-master\GMaps\GMaps\Database\ReportController.cs:regel 22
+Date : 29-6-2017 22:27:32
+
+Message : Er is een netwerkfout of een exemplaarspecifieke fout opgetreden tijdens het maken van verbinding met SQL Server. De server is niet gevonden of is niet toegankelijk. Controleer of de exemplaarnaam correct is en of in de instellingen van SQL Server externe verbindingen zijn toegestaan. (provider: SQL Network Interfaces, error: 26 - Fout bij zoeken van opgegeven server/exemplaar)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.Open()
+   bij GMaps.Database.ReportController.GetReportList() in C:\Users\Murat-Laptop\Documents\Visual Studio 2017\Projects\projecten\GMap-master\GMaps\GMaps\Database\ReportController.cs:regel 52
+Date : 29-6-2017 22:27:33
+
+Message : Er is een netwerkfout of een exemplaarspecifieke fout opgetreden tijdens het maken van verbinding met SQL Server. De server is niet gevonden of is niet toegankelijk. Controleer of de exemplaarnaam correct is en of in de instellingen van SQL Server externe verbindingen zijn toegestaan. (provider: SQL Network Interfaces, error: 26 - Fout bij zoeken van opgegeven server/exemplaar)
+   bij System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   bij System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   bij System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.Open()
+   bij GMaps.Database.ReportController.InsertReport(Report report) in C:\Users\Murat-Laptop\Documents\Visual Studio 2017\Projects\projecten\GMap-master\GMaps\GMaps\Database\ReportController.cs:regel 22
+Date : 29-6-2017 22:29:12
+
+Message : Er is een netwerkfout of een exemplaarspecifieke fout opgetreden tijdens het maken van verbinding met SQL Server. De server is niet gevonden of is niet toegankelijk. Controleer of de exemplaarnaam correct is en of in de instellingen van SQL Server externe verbindingen zijn toegestaan. (provider: SQL Network Interfaces, error: 26 - Fout bij zoeken van opgegeven server/exemplaar)
+   bij System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   bij System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   bij System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.Open()
+   bij GMaps.Database.ReportController.GetReportList() in C:\Users\Murat-Laptop\Documents\Visual Studio 2017\Projects\projecten\GMap-master\GMaps\GMaps\Database\ReportController.cs:regel 52
+Date : 29-6-2017 22:29:32
+
+Message : Er is een netwerkfout of een exemplaarspecifieke fout opgetreden tijdens het maken van verbinding met SQL Server. De server is niet gevonden of is niet toegankelijk. Controleer of de exemplaarnaam correct is en of in de instellingen van SQL Server externe verbindingen zijn toegestaan. (provider: SQL Network Interfaces, error: 26 - Fout bij zoeken van opgegeven server/exemplaar)
+   bij System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   bij System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   bij System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.Open()
+   bij GMaps.Database.ReportController.InsertReport(Report report) in C:\Users\Murat-Laptop\Documents\Visual Studio 2017\Projects\projecten\GMap-master\GMaps\GMaps\Database\ReportController.cs:regel 22
+Date : 29-6-2017 22:33:37
+
+Message : Er is een netwerkfout of een exemplaarspecifieke fout opgetreden tijdens het maken van verbinding met SQL Server. De server is niet gevonden of is niet toegankelijk. Controleer of de exemplaarnaam correct is en of in de instellingen van SQL Server externe verbindingen zijn toegestaan. (provider: SQL Network Interfaces, error: 26 - Fout bij zoeken van opgegeven server/exemplaar)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.Open()
+   bij GMaps.Database.ReportController.GetReportList() in C:\Users\Murat-Laptop\Documents\Visual Studio 2017\Projects\projecten\GMap-master\GMaps\GMaps\Database\ReportController.cs:regel 52
+Date : 29-6-2017 22:33:38
+
+Message : String or binary data would be truncated.
+The statement has been terminated.
+   bij System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   bij System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   bij System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   bij System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   bij System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   bij System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   bij System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   bij GMaps.Database.ReportController.InsertReport(Report report) in C:\Users\Murat-Laptop\Documents\Visual Studio 2017\Projects\projecten\GMap-master\GMaps\GMaps\Database\ReportController.cs:regel 26
+Date : 29-6-2017 22:36:38
+
+Message : De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij GMaps.Panels.Map.CreateWorkingRoute() in E:\MijnItems\Programming\c sharp\projecten\Blok7Project_ParkeerApp\GMaps\GMaps\Panels\Map.cs:regel 115
+Date : 24-3-2018 23:47:04
+
